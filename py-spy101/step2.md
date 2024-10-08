@@ -8,6 +8,9 @@ py-spy top -- python executable.py
 
 In the first case you need to know the pid of the python process to do that we are going to be using `ps`{{exec}} to find it, the problem is that we just run that command on a different tab we will not be able to find the python process so we will instead run `ps -e`{{exec}} and since no python process is currently running we can't find it right now either.
 
+
+## Using Top
+
 So were going to start by using `exampleprogram.py`{{}} which should be located in `somewhere/someplace`{{}} and we will start by using the following command.
 
 `py-spy top -- python exampleprogram.py`{{exec}}
