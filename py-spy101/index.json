@@ -12,7 +12,11 @@
         {
             "title": "py-spy top",
             "text": "step2.md"
-          }
+        },
+        {
+            "title": "py-spy record",
+            "text": "step3.md"
+        }
       ],
       "intro": {
         "text": "intro.md"
