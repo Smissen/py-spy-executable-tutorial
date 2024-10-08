@@ -20,7 +20,7 @@
       ],
       "assets": {
         "host01": [
-          {"file": "exampleprogram.py", "target": "~/", "chmod": "+rwx"}
+          {"file": "**", "target": "/root", "chmod": "+rwx"}
         ]
       },
       "intro": {
