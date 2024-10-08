@@ -1,0 +1,26 @@
+{
+    "title": "Py-Spy Basics",
+    "description": "Tutorial for the usage of Py-Spy",
+    "difficulty": "Beginner",
+    "time": "20min",
+    "details": {
+      "steps": [
+        {
+          "title": "Py-Spy Basics",
+          "text": "step1.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal"
+    },
+    "backend": {
+      "imageid": "ubuntu:1804"
+    }
+  }
