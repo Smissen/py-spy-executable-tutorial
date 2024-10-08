@@ -8,7 +8,11 @@
         {
           "title": "Py-Spy Basics",
           "text": "step1.md"
-        }
+        },
+        {
+            "title": "py-spy top",
+            "text": "step2.md"
+          }
       ],
       "intro": {
         "text": "intro.md"
