@@ -1,4 +1,5 @@
 import time
+import sys
 
 def fibonacci(n: int) -> int:
     if n <= 0:
@@ -28,9 +29,9 @@ def fib4(n: int) -> int:
     else:
         return fib4(n-1) + fib4(n-2)
 
-def main() -> None:
+def main(num) -> None:
     start_time = time.time()
-    result = fibonacci(35)
+    result = fibonacci(num)
     end_time = time.time()
 
     print(f"Fibonacci result: {result}")
@@ -38,4 +39,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main(int(sys.argv[1]))
