@@ -11,12 +11,7 @@ We will use `exampleprogram.py`{{}} and this time we will once again need the po
 
 then we switch tabs (terminal windows) and in the new one we will like in step 2 need to find out the PID of the python process (Do you remember it?)
 
-<details>
-  <summary>Do you remember the command from step 2? (Click this spoiler if not)</summary>
-  ```
-  ps -e{{exec}}
-  ``` 
-</details>
+`ps -e`{{exec}} 
 
 Once we find the python process PID which should be near the bottom we can now run `dump`{{}} to find the Python call stacks. And remember to change `<PID>`{{}} to the correct number that you see in the terminal for example it should look like this `py-spy dump --pid 2470`{{}}
 
