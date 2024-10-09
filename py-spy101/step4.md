@@ -17,4 +17,4 @@ Once we find the python process PID which should be near the bottom we can now r
 
 `py-spy dump --pid <PID>`
 
-We should now see the call stacks and this can be very useful if you have more threads for example.
+We should now see the call stacks and this can be very useful if you have more threads for example. For example it tells us that the process we dumped is (active+gil) which means it is the active process (duh we are only running 1 thread) and that it has the gil(Global Interpreter Lock)

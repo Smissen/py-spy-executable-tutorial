@@ -35,4 +35,6 @@ After finding the pid we will now run
 
 and make sure to replace `<PID>`{{}} with the PID you found for example `3075`{{}}
 
+If the command fails that probably means the python process has finished since it only runs for about 60 seconds in that case you need to go back to the second tab(terminal window) and run the program again.
+
 Now that we are running we can once again see what type of functions are being called and what the CPU is spending the time on.

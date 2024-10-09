@@ -32,6 +32,7 @@ The flamegraph will look like this and it is a visualization of hierarchical dat
 
 `image here`
 
-If you want to read up more on flamegraphs we recommend using the following resource `https://www.brendangregg.com/flamegraphs.html`
 And here we can move around with the arrowkeys to see what is being called and by what.
 When we feel satisfied we can exit by pressing `q`{{}}
+
+If you want to read up more on flamegraphs we recommend using the following resource `https://www.brendangregg.com/flamegraphs.html`
