@@ -27,13 +27,13 @@ Now we can go back to the original tab and run
 
 we should see the python process somewhere near the bottom and it should look like this.
 
-`image template`
+<img src="./pythonpid.png" width="350px">
 
 After finding the pid we will now run
 
 `py-spy top --pid <PID>` 
 
-and make sure to replace `<PID>`{{}} with the PID you found for example `3075`{{}}
+and make sure to replace `<PID>`{{}} with the PID you found for example `2603`{{}} so the command should look like this `py-spy top --pid 2603`{{}} except with probably a different PID number.
 
 If the command fails that probably means the python process has finished since it only runs for about 60 seconds in that case you need to go back to the second tab(terminal window) and run the program again.
 
