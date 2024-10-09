@@ -10,7 +10,7 @@ We can also use the `-f`{{}} flag to change the output format and by default it 
 Also of import is that the flag `-o`{{}} does not need to be used but py-spy will autogenerate the filename without it so we use it for comfort.
 
 ## Prereqs
-(This is optional you can copy the whole svg file and open it on your computer instead if you want to make sure to not use `-f raw`{{}} in that case so you get it in a svg format)
+(This is almost optional, since you can copy the whole svg file and open it on your computer instead if you want to make sure to not use `-f raw`{{}} in that case so you get it in a svg format)
 
 Because there is no display here we will be using an terminal viewer for seeing the flamegraphs. So start by running this
 
