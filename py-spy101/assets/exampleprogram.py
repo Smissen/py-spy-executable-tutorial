@@ -7,27 +7,27 @@ def fibonacci(n: int) -> int:
     elif n == 1:
         return 1
     elif n == 10:
-        return fibono(10)
+        return weirdfib(10)
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 
-def fibono(n: int) -> int:
+def weirdfib(n: int) -> int:
     if n <= 0:
         return 0
     elif n == 1:
         return 1
     elif n == 4:
-        return fib4(4)
+        return unusualfib(4)
     else:
-        return fibono(n-1) + fibono(n-2)
+        return weirdfib(n-1) + weirdfib(n-2)
 
-def fib4(n: int) -> int:
+def unusualfib(n: int) -> int:
     if n <= 0:
         return 0
     elif n == 1:
         return 1
     else:
-        return fib4(n-1) + fib4(n-2)
+        return unusualfib(n-1) + unusualfib(n-2)
 
 def main(num) -> None:
     start_time = time.time()
