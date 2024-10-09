@@ -11,13 +11,13 @@ In the first case you need to know the pid of the python process to do that we a
 
 ## Using Top
 
-So were going to start by using `exampleprogram.py`{{}} which should be located in `somewhere/someplace`{{}} and we will start by using the following command.
+So were going to start by using `exampleprogram.py`{{}} which should be located in our working directory and we will start by using the following command.
 
 `py-spy top -- python exampleprogram.py 35`{{exec}}
 
 We can now see clearly what the program is doing in terms of function calls and can see which functions appear to be taking alot of time.
 
-To see how this can be attached to an already running process we will first open a new tab where will start a new program.
+To see how this can be attached to an already running process we will first open a new tab (ie a new terminal window) where will start a new program.
 
 `python exampleprogram.py 40`{{exec}}
 

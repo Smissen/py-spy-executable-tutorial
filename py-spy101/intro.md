@@ -9,7 +9,8 @@ This is important for DevOps
 
 ## Overview
 
-1. Install py-spy
-2. Use py-spy
-3. Flamegraphs
-4. Conclusion
+1. Install py-spy and Introduction
+2. Top subcommand
+3. Record subcommand
+4. Dump subcommand
+5. Additonal options

@@ -16,6 +16,14 @@
         {
             "title": "py-spy record",
             "text": "step3.md"
+        },
+        {
+            "title": "py-spy dump",
+            "text": "step4.md"
+        },
+        {
+            "title": "py-spy other options",
+            "text": "step5.md"
         }
       ],
       "assets": {
