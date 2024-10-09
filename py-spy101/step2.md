@@ -21,7 +21,7 @@ To see how this can be attached to an already running process we will first open
 
 `python exampleprogram.py 40`{{exec}}
 
-Now we can go back to the original tab and run 
+Now we can go back to the original tab and run the following command.
 
 `ps -e`{{exec interrupt}} 
 
