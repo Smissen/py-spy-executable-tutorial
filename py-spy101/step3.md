@@ -5,7 +5,7 @@ py-spy record -o output.svg --pid <PID>
 # OR
 py-spy record -o output.svg -- python executable.py
 ```
-We can also use the `-f`{{}} flag to change the output format and by default it generates a flamegraph in a svg but you can also choose `raw`{{}} and `speedscope`{{}} and we will be using the `-f raw`{{}} because Killercoda does not have any sort of display.
+We can also use the `-f`{{}} flag to change the output format and by default it generates a flamegraph in a svg but you can also choose `raw`{{}} and `speedscope`{{}} and we will be using the `-f raw`{{}} because Killercoda does not have any sort of display. `speedscope`{{}} is used to generate files in JSON which can be used by the Speedscope profiler which we will not be diving into today.
 
 Also of import is that the flag `-o`{{}} does not need to be used but py-spy will autogenerate the filename without it so we use it for comfort.
 
