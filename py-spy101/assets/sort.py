@@ -15,7 +15,7 @@ def quicksort(arr):
         return arr
     elif len(arr) <= 9:
         return bogosort(arr)
-    elif len(arr) > 10000 and len(arr) < 20000:
+    elif len(arr) > 10000 and len(arr) < 100000:
         snorlax()
     
     pivot = arr[len(arr) // 2]
@@ -27,9 +27,9 @@ def quicksort(arr):
 
 # This guy is always in the way!
 def snorlax():
-    time.sleep(5)
-    for _ in range(random.randint(5, 15)):
-        time.sleep(1)
+    for _ in range(random.randint(10, 15)):
+        for n in range(999999999999999):
+            n = n +1
         print("zzzZZZzzz")
 
 # Don't touch :#
