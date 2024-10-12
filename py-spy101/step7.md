@@ -4,7 +4,7 @@ Oh dear, you see that you've done it again... You accidentally included bogosort
 You quickly comment out the bogosort call and elif statement on lines 18 & 19 and now you're good to go, into production it goes!
 
 ## Happily ever after... You hoped
-Run `python sort.py 100000`{{exec}} in a seperate tab, then `ps -e`{{exec interrupt}} and `py-spy top --pid <PID>` in your main tab to get it into production.
+Run `python sort.py 500000`{{exec}} in a seperate tab, then `ps -e`{{exec interrupt}} and `py-spy top --pid <PID>` in your main tab to get it into production.
 
 Your code has now been in production for a while, when you get pinged by your company's ChatOps bot: "py-spy indidicates odd resource usage".
 

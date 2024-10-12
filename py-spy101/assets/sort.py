@@ -9,14 +9,13 @@ def bogosort(arr):
             return arr
         random.shuffle(arr)
 
-
 # Now this is quick!
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
     elif len(arr) <= 9:
         return bogosort(arr)
-    elif len(arr) == 500:
+    elif len(arr) > 10000 and len(arr) < 20000:
         snorlax()
     
     pivot = arr[len(arr) // 2]
