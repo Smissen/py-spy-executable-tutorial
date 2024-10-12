@@ -7,9 +7,6 @@ py-spy top -- python executable.py
 py-spy top --pid <PID>
 ```
 
-In the first case you need to know the pid of the python process to do that we are going to be using `ps`{{exec}} to find it, the problem is that we just run that command on a different tab we will not be able to find the python process so we will instead run `ps -e`{{exec}} and since no python process is currently running we can't find it right now either.
-
-
 ## Using Top and Starting a Program
 
 We will first start and monitor `exampleprogram.py`{{}}, which is located in our working directory. To accomplish this, we'll run the following command.
@@ -21,7 +18,7 @@ This shows us clearly which functions are called and how much time they take to 
 
 ## Using Top and Attaching to a Running Program
 
-The first command works great for troubleshooting slow programs, but isn't viable for usage in production. We will now go over how to attach the profiler to an already running process. Py-spy requires little computing power and runs in a seperate process, making it safe to use in production.
+The first command works great for troubleshooting slow programs, but isn't viable for usage in production. We will now go over how to attach the profiler to an already running process. Py-spy requires little computing power and runs as a seperate process, making it safe to use in production.
 
 The first step is to press the little `x`{{}} to the right of `Tab 1`{{}} to open a new terminal window. Enter that window and run your Python program.
 

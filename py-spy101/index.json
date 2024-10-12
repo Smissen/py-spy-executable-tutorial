@@ -24,6 +24,14 @@
         {
             "title": "py-spy other options",
             "text": "step5.md"
+        },
+        {
+          "title": "In Development",
+          "text": "step6.md"
+        },
+        {
+          "title": "To Production",
+          "text": "step7.md"
         }
       ],
       "assets": {
