@@ -4,12 +4,11 @@ import sys
 
 # O(n) if you're lucky! :)
 def bogosort(arr):
-    def is_sorted(arr):
-        return all(arr[i] <= arr[i + 1] for i in range(len(arr) - 1))
-    
-    while not is_sorted(arr):
+    while True:
+        if all(arr[i] <= arr[i + 1] for i in range(len(arr) - 1)):
+            return arr
         random.shuffle(arr)
-    return arr
+
 
 # Now this is quick!
 def quicksort(arr):
@@ -17,7 +16,7 @@ def quicksort(arr):
         return arr
     elif len(arr) <= 9:
         return bogosort(arr)
-    elif len(arr) == 100:
+    elif len(arr) == 500:
         snorlax()
     
     pivot = arr[len(arr) // 2]
@@ -35,6 +34,6 @@ def snorlax():
         print("zzzZZZzzz")
 
 # Don't touch :#
-arr = [random.randint(0, 1000) for _ in range(int(sys.argv[1]))]
+arr = [random.randint(0, 100000) for _ in range(int(sys.argv[1]))]
 
 print("Sorted array:", quicksort(arr))
