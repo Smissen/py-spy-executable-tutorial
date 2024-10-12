@@ -1,9 +1,11 @@
-Well lets start with installing py-spy
+We'll start with installing py-spy by running this command.
 
 `pip install py-spy`{{execute}}
 
-Now that we have py-spy installed we can verify it and the version by running
+If you were to install it later on a Mac, you can use Homebrew instead with this command `brew install py-spy`.
+
+Now that we have py-spy installed, we can verify the installation and also check the version by running.
 
 `py-spy --version`{{execute}}
 
-So what can py-spy do well there is three subcommands that we can use and those are `top`{{}} `dump`{{}} and `record`{{}} and we will be going into those three now.
+Now that we have py-spy working, we can go into how to use it. There are three commands avaiable, these are `top`{{}}, `dump`{{}} and `record`{{}}. We'll now go through each of them.

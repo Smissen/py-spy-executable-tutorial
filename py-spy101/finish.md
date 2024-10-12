@@ -1,9 +1,9 @@
-We have now finished with the tutorial for py-spy and we hope it will be a tool for you in your DevOps work.
+We're now done with the tutorial, we hope you found it informative and intuitive, and that you'll consider using Py-Spy in the future.
 
-Here are some links that we think might be of use for your future study.
+Here are some links that we think might be of use if you're interested. 
 
-Link to py-spy github.
+Py-Spy github.
 `https://github.com/benfred/py-spy`
 
-Link to flamegraphs.
+Flamegraphs.
 `https://www.brendangregg.com/flamegraphs.html`

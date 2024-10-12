@@ -1,20 +1,22 @@
-## Dump subcommand
-The `dump`{{}} subcommand can be called like this
+## Dump command
+The `dump`{{}} command can be called like this.
 ```
 py-spy dump --pid <PID>
 ```
 
 ## Using dump
-We will use `exampleprogram.py`{{}} and this time we will once again need the power of two terminal windows so starting by using the first tab we will call.
+We will use `exampleprogram.py`{{}}. We will need to find the PID, just like when we attached `top`{{}} to a running process. Go to a second terminal tab and run.
 
 `python exampleprogram.py 40`{{exec}}
 
-then we switch tabs (terminal windows) and in the new one we will like in step 2 need to find out the PID of the python process (Do you remember it?)
+Now we'll go back to the first tab and run.
 
 `ps -e`{{exec}} 
 
-Once we find the python process PID which should be near the bottom we can now run `dump`{{}} to find the Python call stacks. And remember to change `<PID>`{{}} to the correct number that you see in the terminal for example it should look like this `py-spy dump --pid 2470`{{}}
+Take note of the python process PID which should be near the bottom.
+
+We can now run `dump`{{}} to find the Python call stack. And remember to change `<PID>`{{}} to the correct number that you see in the terminal for example it should look something like this `py-spy dump --pid 2470`{{}}.
 
 `py-spy dump --pid <PID>`
 
-We should now see the call stacks and this can be very useful if you have more threads for example. For example it tells us that the process we dumped is (active+gil) which means it is the active process (duh we are only running 1 thread) and that it has the gil(Global Interpreter Lock)
+We should now see the call stacks. This can be very useful if you're executing over multiple threads. It also tells us that the process we dumped is (active+gil) which means it is the active process (because we're only running 1 thread) and that it has the gil(Global Interpreter Lock).
