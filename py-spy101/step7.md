@@ -1,7 +1,7 @@
 ## Not Again...
 Oh dear, you see that you've done it again... You accidentally included bogosort in your quicksort... Nothing to be ashamed of, it happens to the best of us from time to time.
 
-You quickly comment out the bogosort call and elif statement on lines 18 & 19 and now you're good to go, into production it goes!
+You quickly comment out the bogosort call and elif statement on lines 16 & 17 and now you're good to go, into production it goes!
 
 ## Happily ever after... You hoped
 Run `python sort.py 500000`{{exec}} in a seperate tab, then `ps -e`{{exec interrupt}} and `py-spy top --pid <PID>` in your main tab to get it into production.

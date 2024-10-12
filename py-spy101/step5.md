@@ -4,7 +4,7 @@ There are a lot more options you can use for all of the commands, that we did no
 `py-spy record -h`{{exec}}
 
 And you can of course change `record`{{}} to any of the other commands `dump`{{}} and `top`{{}} here.
-Some of the options you can use that is important are:
+Some of the important options you can use are:
 
 `--rate` 
 This determines how often you are sampling, if you increase this number precision increases but overhead also increases. This is set by default to `100`{{}} times per second.
