@@ -8,4 +8,4 @@ Now that we have py-spy installed, we can verify the installation and also check
 
 `py-spy --version`{{execute}}
 
-Now that we have py-spy working, we can go into how to use it. There are three commands avaiable, these are `top`{{}}, `dump`{{}} and `record`{{}}. We'll now go through each of them.
+Now that we have py-spy working, we can go into how to use it. There are three commands available, these are `top`{{}}, `dump`{{}} and `record`{{}}. We'll now go through each of them.

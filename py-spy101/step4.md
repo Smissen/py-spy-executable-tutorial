@@ -13,7 +13,7 @@ Now we'll go back to the first tab and run.
 
 `ps -e`{{exec}} 
 
-Take note of the python process PID which should be near the bottom.
+Take note of the Python process PID which should be near the bottom.
 
 We can now run `dump`{{}} to find the Python call stack. And remember to change `<PID>`{{}} to the correct number that you see in the terminal for example it should look something like this `py-spy dump --pid 2470`{{}}.
 

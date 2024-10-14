@@ -1,5 +1,5 @@
-## Additonal flags and options
-There are a lot more options you can use for all of the commands, that we did not get into in this tutorial but these can all be found using.
+## Additional flags and options
+There are a lot more options you can use for all of the commands that we did not get into in this tutorial, but these can all be found using.
 
 `py-spy record -h`{{exec}}
 

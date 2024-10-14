@@ -5,7 +5,7 @@ py-spy record -o output.svg --pid <PID>
 # OR
 py-spy record -o output.svg -- python executable.py
 ```
-We can also use the `-f`{{}} flag to change the output format. By default it generates a SVG flamegraph, but you can also specify `raw`{{}} or `speedscope`{{}}. We will be using the `-f raw`{{}} because Killercoda does not have any sort of display. `speedscope`{{}} is used to generate files in JSON which can be used by the Speedscope profiler, which we will not be diving into today.
+We can also use the `-f`{{}} flag to change the output format. By default it generates a SVG flamegraph, but you can also specify `raw`{{}} or `speedscope`{{}}. We will be using the `-f raw`{{}} because Killercoda does not have any sort of display. `speedscope`{{}} is used to generate files in JSON, which can be used by the Speedscope profiler, which we will not be diving into today.
 
 Also of importance is that the flag `-o`{{}} does not need to be used, but py-spy autogenerates the filename without it so we use it for comfort.
 
@@ -14,7 +14,7 @@ Because there is no display here, we will be using a terminal viewer for seeing 
 
 `git clone https://github.com/4rtzel/tfg`{{exec}}
 
-We have now gotten the terminal flame graph viewer (tfg), which is also written in Python. There are other alternatives but this is the one that we will be using, if you are interested in reading about it you can do so here `https://github.com/4rtzel/tfg`.
+We have now gotten the terminal flame graph viewer (tfg), which is also written in Python. There are other alternatives, but this is the one that we will be using. If you are interested in reading about it you can do so here `https://github.com/4rtzel/tfg`.
 
 ## Using Record
 
