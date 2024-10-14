@@ -20,7 +20,7 @@ This shows us clearly which functions are called and how much time they take to 
 
 The first command works great for troubleshooting slow programs, but isn't viable for usage in production. We will now go over how to attach the profiler to an already running process. Py-spy requires little computing power and runs as a seperate process, making it safe to use in production.
 
-The first step is to press the little `x`{{}} to the right of `Tab 1`{{}} to open a new terminal window. Enter that window and run your Python program.
+The first step is to press the little `+`{{}} to the right of `Tab 1`{{}} to open a new terminal window. Enter that window and run your Python program.
 
 `python exampleprogram.py 40`{{exec}}
 
