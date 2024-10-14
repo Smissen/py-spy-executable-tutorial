@@ -22,7 +22,7 @@ We will start by running record on our program `exampleprogram.py`{{}} and since
 
 `py-spy record -o output.txt -f raw -- python exampleprogram.py 38`{{exec}}
 
-This will take a couple seconds, but after Py-Spy informs you that its done, we can open the flamegraph via.
+This will take approximately 20 seconds, but after Py-Spy informs you that its done, we can open the flamegraph via.
 
 `tfg/tfg.py -t pyspy output.txt`{{exec}}
 
