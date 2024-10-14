@@ -19,4 +19,4 @@ We can now run `dump`{{}} to find the Python call stack. And remember to change 
 
 `py-spy dump --pid <PID>`
 
-We should now see the call stacks. This can be very useful if you're executing over multiple threads. It also tells us that the process we dumped is (active+gil) which means it is the active process (because we're only running 1 thread) and that it has the gil (Global Interpreter Lock).
+We should now see the call stacks. This can be very useful if you're executing over multiple threads. It also tells us that the process we dumped has a thread which is (active+gil) which means it is the active thread (because we're only running 1 thread) and that it has the gil (Global Interpreter Lock).
