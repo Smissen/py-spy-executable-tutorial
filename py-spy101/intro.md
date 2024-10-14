@@ -1,4 +1,4 @@
-## Learning Outcomes
+## Intended Learning Outcomes
 This executable tutorial aims to show how you can use py-spy to be able to profile and monitor your codebase. This will allow you to identify problematic code quicker, and get a better overview of where your code is spending most of its time.
 
 We hope that you will be able to use py-spy in your DevOps work and hopefully be able to utilize it after this tutorial.
