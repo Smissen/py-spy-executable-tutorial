@@ -19,3 +19,5 @@ Quick and easy identification of problematic code during development fits the et
 3. Record subcommand
 4. Dump subcommand
 5. Additonal options
+6. Using py-spy in development
+7. Using py-spy in production
